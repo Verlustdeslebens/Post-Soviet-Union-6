@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(Foto/qqq.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #vibor{
+    color: gray;
+    text-decoration-line:none;
+    background-color:white ;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  #vibor:hover{
+
+    color: azure;
+    background-color: darkred;
+  }
+
+  #menu{
+    color: white;
+    text-decoration-line:none;
+    background-color: #333 ;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  #menu:hover{
+
+    color: azure;
+    background-color: darkred;
+  }
+
+  #dulo{
+    width: 1400px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+  }
+
+  header{
+    display: flex;
+    justify-content: start;
+  }
